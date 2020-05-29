@@ -8,7 +8,7 @@ int main(void) {
 				break;
 			}
 			if(i==j){
-				printf("100이하의 소수:%d", i);
+				printf("the prime number less than 100:%d"\n, i);
 				
 			}
 			printf("%d\n");
