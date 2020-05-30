@@ -5,7 +5,7 @@ int main(void) {
 	return 0;
 
 }
-void main(void) {
+void fruit(void) {
 	printf("apple\n");
 	fruit();
 }
