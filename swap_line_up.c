@@ -3,7 +3,7 @@ void swap(double *pa, double *pb);
 void line_up(double *maxp, double *midp, double *minp);
 int main(void) {
 	double max, mid, min;
-	printf("서로다른 세수를 입력하세요.");
+	printf("Insert three numbers");
 	scanf("%lf%lf%lf", &max, &mid, &min);
 	line_up(&max, &mid, &min);
 	prinf("%.1lf,%.1lf,%.1lf", max, mid, min);
