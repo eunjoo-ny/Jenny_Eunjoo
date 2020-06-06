@@ -3,7 +3,7 @@
 int main(void) {
 	int res;
 	char ch;
-	while(1){//while반복문임.
+	while(1){
 	scanf("%c", &ch);
 	if (res == -1) 
 		break;
